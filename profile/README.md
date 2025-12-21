@@ -1,25 +1,24 @@
-🌐 AI Format Foundation (AIFF)
+🌐 AI First Exchange (AIFX)
 Open Standards for AI-Generated Media
 
-The AI Format Foundation (AIFF) is an open, community-driven initiative creating transparent, verifiable, and future-proof file standards for AI-generated content.
-Our mission is to give creators, developers, platforms, and archivists a consistent way to document authorship, provenance, prompts, toolchains, and verification status across all major forms of AI media.
+The AI First Exchange (AIFX) is an open, community-driven initiative creating transparent, integrity-verifiable, and future-proof file standards for AI-generated content. Our mission is to give creators, developers, platforms, and archivists a consistent way to document authorship, provenance, prompts, toolchains, and verification status across all major forms of AI media.
 
-🧩 AIFF Core Standards
-🎵 AIM — AI Music Format (.aim)
+🧩 AIFX Core Formats
+🎵 AIFM — AI First Music Format (.aifm)
 
 A structured, ZIP-based container for storing:
 
-Audio (mp3, wav)
+Audio (.mp3, .wav, etc.)
 
 Prompts
 
-Stems
+Stems (optional)
 
 Metadata
 
-Authorship + verification info
+Authorship + verification fields
 
-🎬 AIV — AI Video Format (.aiv)
+🎬 AIFV — AI First Video Format (.aifv)
 
 Supports:
 
@@ -29,13 +28,13 @@ Scene prompts
 
 Storyboards
 
-Audio tracks
+Audio tracks (optional)
 
 Model + toolchain metadata
 
 Verification fields
 
-🖼 AII — AI Image Format (.aii)
+🖼 AIFI — AI First Image Format (.aifi)
 
 Stores:
 
@@ -43,68 +42,63 @@ Final image
 
 Prompt + negative prompt
 
-Model seeds
+Model/seed parameters (where available)
 
-Variations
-
-Edits
+Variations and edits (optional)
 
 Verification tier
 
-📁 AIP — AI Project Format (.aip)
+📁 AIFP — AI First Project Format (.aifp)
 
 A multi-asset project container for:
 
-Timelines
+Timelines / sequences
 
-Sequences
+Audio, video, and image assets
 
-Audio, video, image assets
-
-Editor steps
+Editor steps (optional)
 
 Provenance trail
 
 Verification badges
 
-Each standard is built for long-term reliability and interoperability.
+Each format is a ZIP-based container with a manifest.json manifest and standardized folders.
 
-🛡️ AFF-VS: Verification System 1.0
+🛡️ AIFX-VS: Verification System 1.0
 
-AIFF introduces a universal verification model used across all formats:
+AIFX introduces a universal verification model used across all formats:
 
 🟡 Tier 1 — Self-Declared Authenticity (SDA)
 
-Creator manually enters metadata.
-Lowest trust level.
+Creator manually enters metadata. Lowest trust level.
 
 🔵 Tier 2 — Verified Creator (VC)
 
-Email verified + authorship statement signed.
-Required for monetization and professional profiles.
+Identity verified + authorship statement signed. Recommended for monetization and professional profiles.
 
 🟢 Tier 3 — Platform Verified Authenticity (PVA)
 
-Metadata verified via API (Suno, Veo, Runway, SDXL, etc.).
-Highest trust level.
+Metadata verified via trusted pipelines or platform integrations (where available). Highest trust level.
 
 Verification metadata is stored directly in each format’s manifest.json.
 
+Verification tiers attest to metadata completeness, integrity, and signing status—not absolute proof of origin outside the recorded workflow.
+
 ⚖️ Legal & Authorship Protection
 
-AIFF standards include best-practice documentation to help creators:
+AIFX standards include best-practice documentation to help creators:
 
 Record human creative contribution
 
 Establish provenance
 
-Support copyright eligibility
+Support copyright eligibility (where applicable)
 
 Document editing steps
 
-Clarify the origin of AI-generated content
+Clarify the origin and workflow of AI-generated media
 
-See the repo files:
+See:
 
 COPYRIGHT-GUIDANCE.md
 
@@ -116,7 +110,7 @@ HUMAN-AUTHORSHIP-STATEMENT.md
 
 AI-generated content is exploding, but metadata transparency is missing.
 
-AIFF aims to become the industry standard for:
+AIFX aims to become the industry standard for:
 
 AI music publishing
 
@@ -130,9 +124,7 @@ Verification & fraud prevention
 
 Long-term provenance for creative works
 
-This is the equivalent of EXIF for AI Images,
-ID3 tags for AI Music,
-and project archives for AI production tools — all unified.
+This is the equivalent of EXIF for AI images, ID3 for AI music, and project archives for AI production tools — all unified.
 
 🤝 Welcome Creators, Developers, and Platforms
 
