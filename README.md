@@ -1,2 +1,2 @@
 # .github
-AI Format Foundation configuration repository
+AI First Exchange configuration repository
