@@ -9,13 +9,9 @@ The AI First Exchange (AIFX) is an open, community-driven initiative creating tr
 A structured, ZIP-based container for storing:
 
 Audio (.mp3, .wav, etc.)
-
 Prompts
-
 Stems (optional)
-
 Metadata
-
 Authorship + verification fields
 
 🎬 AIFV — AI First Video Format (.aifv)
@@ -23,15 +19,10 @@ Authorship + verification fields
 Supports:
 
 Video files
-
 Scene prompts
-
 Storyboards
-
 Audio tracks (optional)
-
 Model + toolchain metadata
-
 Verification fields
 
 🖼 AIFI — AI First Image Format (.aifi)
@@ -39,13 +30,9 @@ Verification fields
 Stores:
 
 Final image
-
 Prompt + negative prompt
-
 Model/seed parameters (where available)
-
 Variations and edits (optional)
-
 Verification tier
 
 📁 AIFP — AI First Project Format (.aifp)
@@ -53,13 +40,9 @@ Verification tier
 A multi-asset project container for:
 
 Timelines / sequences
-
 Audio, video, and image assets
-
 Editor steps (optional)
-
 Provenance trail
-
 Verification badges
 
 Each format is a ZIP-based container with a manifest.json manifest and standardized folders.
@@ -89,13 +72,9 @@ Verification tiers attest to metadata completeness, integrity, and signing statu
 AIFX standards include best-practice documentation to help creators:
 
 Record human creative contribution
-
 Establish provenance
-
 Support copyright eligibility (where applicable)
-
 Document editing steps
-
 Clarify the origin and workflow of AI-generated media
 
 See:
@@ -106,6 +85,21 @@ LEGAL-DISCLAIMER.md
 
 HUMAN-AUTHORSHIP-STATEMENT.md
 
+## 🔗 Relationship to Emerging AI Standards
+
+AI First Exchange (AIFX) is designed to operate alongside evolving legal, regulatory, and technical standards related to artificial intelligence and synthetic media.
+
+AIFX does not replace or override applicable laws, platform policies, or intellectual property frameworks. Instead, it provides a structured, format-level approach to documenting human intent, direction, selection, and responsibility in AI-assisted and AI-executed creative workflows.
+
+The AIFX framework is intended to be compatible with emerging efforts in areas such as:
+
+- AI-assisted inventorship and authorship guidance
+- Content provenance, disclosure, and transparency mechanisms
+- Accountability and auditability for synthetic media
+- Standards and best practices developed by governmental, academic, and international standards organizations
+
+AIFX functions as a provenance and authorship declaration layer that can coexist with future regulatory guidance, technical standards, and verification systems as they evolve.
+
 🚀 Our Vision
 
 AI-generated content is exploding, but metadata transparency is missing.
@@ -113,15 +107,10 @@ AI-generated content is exploding, but metadata transparency is missing.
 AIFX aims to become the industry standard for:
 
 AI music publishing
-
 AI filmmaking workflows
-
 AI art archiving
-
 Cross-tool interoperability
-
 Verification & fraud prevention
-
 Long-term provenance for creative works
 
 This is the equivalent of EXIF for AI images, ID3 for AI music, and project archives for AI production tools — all unified.
