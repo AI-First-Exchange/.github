@@ -3,6 +3,14 @@ Open Standards for AI-Generated Media
 
 The AI First Exchange (AIFX) is an open, community-driven initiative creating transparent, integrity-verifiable, and future-proof file standards for AI-generated content. Our mission is to give creators, developers, platforms, and archivists a consistent way to document authorship, provenance, prompts, toolchains, and verification status across all major forms of AI media.
 
+## 📛 Name & Trademark Notice
+
+AI First Exchange™ (AIFX™) is an open-source initiative stewarded by Joseph Simon Simbulan.
+
+The AI First Exchange name, AIFX acronym, and related format names (AIFM™, AIFV™, AIFI™, AIFP™) are used to identify the official specification and reference implementations of the AIFX standards.
+
+Use of the source code or specifications does not grant permission to use the AI First Exchange or AIFX names, logos, or branding in a way that implies official status or endorsement.
+
 🧩 AIFX Core Formats
 🎵 AIFM — AI First Music Format (.aifm)
 
@@ -121,6 +129,12 @@ The AIFX framework is intended to be compatible with emerging efforts in areas s
 
 AIFX functions as a provenance and authorship declaration layer that can coexist with future regulatory guidance, technical standards, and verification systems as they evolve.
 
+## 🏛️ Stewardship
+
+AI First Exchange is an open standard guided by its original author and community contributors.
+
+The goal of stewardship is to maintain clarity, interoperability, and long-term archival integrity — not to restrict innovation or ownership of creative works.
+
 🚀 Our Vision
 
 AI-generated content is exploding, but metadata transparency is missing.
@@ -141,10 +155,18 @@ Long-term provenance for creative works
 
 This is the equivalent of EXIF for AI images, ID3 for AI music, and project archives for AI production tools — all unified.
 
+## 🧭 Brand Usage & Forks
+
+Anyone may implement the AIFX formats or build tools using the specifications.
+
+Forks and independent implementations must not present themselves as the official AI First Exchange or use AIFX-branded names in a way that implies endorsement or certification without permission.
+
+This ensures clarity, trust, and interoperability across the ecosystem.
+
 🤝 Welcome Creators, Developers, and Platforms
 
 Anyone can implement the formats.
 Anyone can build tools.
 Anyone can contribute.
 
-AIFF is creating a transparent, trustworthy future for AI media — one standard at a time.
+AI First Exchange (AIFX) is creating a transparent, trustworthy future for AI media — one standard at a time.
